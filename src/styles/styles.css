@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&display=swap');
+
+/* ---------------- 1. GLOBAL SETTINGS ---------------- */
+* {
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* पूरी स्क्रीन की हाइट */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Fredoka', sans-serif;
+  background: linear-gradient(135deg, #e0f2ff 0%, #ffffff 100%);
+  background-attachment: fixed;
+  color: #2c3e50;
+  min-height: 100vh;
+}
+
+.main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 25px;
+  width: 100%;
+  flex: 1; /* यह फुटर को नीचे धकेल देगा */
+  display: flex;
+  flex-direction: column;
+}
+.section-title {
+  text-align: center;
+  color: #1e90ff;
+  font-size: 2.2rem;
+  margin: 30px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 0px white;
+}
+
+/* ---------------- 2. SKY HEADER & CLOUDS ---------------- */
+.sky-header {
+  position: relative;
+  overflow: hidden;
+  padding: 60px 20px;
+  background: linear-gradient(to bottom, #4facfe 0%, #00f2fe 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 80px;
+  border-bottom-right-radius: 80px;
+  box-shadow: 0 15px 40px rgba(79, 172, 254, 0.3);
+}
+
+.header-card {
+  position: relative;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 35px;
+  border-radius: 45px;
+  text-align: center;
+  border: 4px solid white;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+  width: 100%;
+  max-width: 550px;
+}
+
+.logo-text {
+  margin: 0;
+  font-size: 3.2rem;
+  background: linear-gradient(45deg, #0b3d91, #1e90ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.sub-text {
+  margin: 5px 0 20px;
+  color: #576574;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* ---------------- 3. BUBBLY BUTTONS (Universal) ---------------- */
+.lang-btn, .chapter-btn, .back-btn {
+  border: none;
+  cursor: pointer;
+  font-family: 'Fredoka', sans-serif;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  align-self: flex-start; 
+  width: auto;
+  position: relative;
+  top: 0;
+}
+
+/* Specific Style for Language & Back Buttons */
+.lang-btn, .back-btn {
+  padding: 12px 30px;
+  font-size: 1.1rem;
+  border-radius: 20px;
+  background: white;
+  color: #1e90ff;
+  box-shadow: 0 6px 0px #d1e9ff;
+  margin: 5px;
+}
+
+.lang-btn.active, .back-btn:hover, .chapter-btn.active {
+  background: #1e90ff;
+  color: white;
+  box-shadow: 0 6px 0px #0b3d91;
+}
+
+.lang-btn:active, .back-btn:active, .chapter-btn:active {
+  top: 4px;
+  box-shadow: 0 2px 0px #0b3d91;
+}
+
+/* Chapter Specific Buttons */
+.chapter-selector {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.chapter-btn {
+  padding: 10px 20px;
+  background: white;
+  border: 2px solid #e1f0ff;
+  border-radius: 15px;
+  color: #1e90ff;
+  box-shadow: 0 4px 0px #e1f0ff;
+}
+
+/* ---------------- 4. FEATURE GRID & CARDS ---------------- */
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 35px;
+  margin-top: 20px;
+}
+
+.feature-card {
+  background: white;
+  border-radius: 40px;
+  padding: 30px;
+  text-align: center;
+  border: 3px solid #f0f8ff;
+  box-shadow: 0 15px 35px rgba(30, 144, 255, 0.08);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.feature-card:hover {
+  transform: translateY(-12px);
+  border-color: #4facfe;
+  box-shadow: 0 20px 45px rgba(30, 144, 255, 0.15);
+}
+
+.feature-card img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  margin-bottom: 15px;
+  animation: floatCard 4s infinite ease-in-out;
+}
+
+.feature-card h3 {
+  color: #0b3d91;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+/* ---------------- 5. CONTENT AREA (Detail Screen) ---------------- */
+.content-card {
+  background: white;
+  border-radius: 45px;
+  padding: 40px;
+  border: 4px solid #e1f0ff;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.05);
+  max-width: 850px;
+  margin: 30px auto;
+}
+
+.list-item {
+  background: #f7fbff;
+  margin-bottom: 18px;
+  padding: 22px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.25rem;
+  border: 2px solid #eef7ff;
+}
+
+.bullet {
+  background: #1e90ff;
+  color: white;
+  min-width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 10px rgba(30, 144, 255, 0.3);
+}
+
+/* ---------------- 6. CLOUD ANIMATIONS ---------------- */
+.cloud {
+  width: 120px; height: 40px; background: #fff; border-radius: 100px;
+  position: absolute; opacity: 0.8; filter: blur(1px);
+}
+.cloud::after, .cloud::before { content: ''; position: absolute; background: #fff; border-radius: 50%; }
+.cloud::after { width: 50px; height: 50px; top: -25px; left: 20px; }
+.cloud::before { width: 60px; height: 60px; top: -30px; right: 20px; }
+
+.c1 { top: 15%; left: -100px; animation: moveClouds 20s linear infinite; }
+.c2 { top: 45%; left: -100px; animation: moveClouds 15s linear infinite; animation-delay: 2s; }
+.c3 { top: 25%; right: -100px; animation: moveCloudsReverse 25s linear infinite; }
+
+@keyframes moveClouds { 0% { left: -150px; } 100% { left: 110%; } }
+@keyframes moveCloudsReverse { 0% { right: -150px; } 100% { right: 110%; } }
+@keyframes floatCard { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+
+/* ---------------- 7. FOOTER ---------------- */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b3d91;
+  color: white;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: auto; /* एक्स्ट्रा सुरक्षा के लिए */
+}
+
+/* ---------------- KIDS FRIENDLY DETAIL SCREEN ---------------- */
+
+.detail-card-container {
+  background: white;
+  border-radius: 40px;
+  border: 4px solid #e1f0ff;
+  box-shadow: 0 20px 0px rgba(30, 144, 255, 0.05); /* Soft Sky shadow */
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+/* हेडर जहाँ चैप्टर का नाम है */
+.detail-header {
+  background: #f0f8ff;
+  padding: 30px;
+  text-align: center;
+  border-bottom: 4px dashed #1e90ff;
+}
+
+.lesson-icon {
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.detail-header h2 {
+  margin: 0;
+  color: #0b3d91;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* कंटेंट एरिया */
+.content-area {
+  padding: 30px;
+}
+
+/* --- LIST STYLE (बच्चों के लिए मजेदार डब्बे) --- */
+.kids-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.kids-item {
+  background: #ffffff;
+  border: 2px solid #e1f0ff;
+  padding: 20px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: 0.3s;
+  box-shadow: 0 8px 15px rgba(30, 144, 255, 0.08);
+}
+
+.kids-item:hover {
+  transform: scale(1.02);
+  border-color: #1e90ff;
+  background: #f7fbff;
+}
+
+.kids-number {
+  background: #1e90ff;
+  color: white;
+  width: 45px;
+  height: 45px;
+  border-radius: 15px; /* Rounded Square look */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 0px #0b3d91;
+}
+
+.kids-text {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+/* --- PLAIN TEXT BOX (अगर सिर्फ पैराग्राफ है) --- */
+.kids-plain-box {
+  background: #f7fbff;
+  padding: 30px;
+  border-radius: 30px;
+  border-left: 8px solid #1e90ff;
+}
+
+.kids-plain-text {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: #333;
+  margin: 0;
+}
+
+/* मोबाइल के लिए सुधार */
+@media (max-width: 600px) {
+  .detail-header h2 { font-size: 1.5rem; }
+  .kids-text { font-size: 1.1rem; }
+  .content-area { padding: 15px; }
+  .kids-item { padding: 15px; gap: 12px; }
+}

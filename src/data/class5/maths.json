@@ -1,0 +1,135 @@
+{
+  "class": 3,
+  "subject": "Mathematics",
+  "chapters": [
+    {
+      "id": 1,
+      "title": {
+        "en": "What’s in a Name?",
+        "hi": "नाम में क्या है?"
+      },
+      "videoTopic": {
+        "en": "Counting, Grouping and Data: Exploring Names & Numbers",
+        "hi": "गिनती, समूह और डेटा: नाम और संख्याओं की खोज"
+      },
+      "summary": {
+        "en": "This chapter develops early number sense and counting skills through stories. It introduces one-to-one correspondence using marks, comparing name lengths by counting letters, and grouping names by starting or ending letters. Students explore number names (1-99), find patterns, and learn to organize data and objects in multiple ways to build flexible thinking.",
+        "hi": "यह अध्याय कहानियों के माध्यम से शुरुआती संख्या बोध और गिनती कौशल विकसित करता है। इसमें चिह्नों का उपयोग करके एक-से-एक मिलान, अक्षरों को गिनकर नाम की लंबाई की तुलना करना और शुरुआती या अंतिम अक्षरों द्वारा नामों को समूहित करना सिखाया गया है। छात्र संख्या नामों (1-99) का पता लगाते हैं, पैटर्न खोजते हैं और लचीली सोच बनाने के लिए वस्तुओं को व्यवस्थित करना सीखते हैं।"
+      },
+      "points": [
+        {
+          "en": "Counting using one-to-one correspondence and tally marks",
+          "hi": "एक-से-एक मिलान और मिलान चिह्नों (Tally marks) का उपयोग करके गिनती करना"
+        },
+        {
+          "en": "Comparing lengths of names by counting their letters",
+          "hi": "अक्षरों की गिनती करके नामों की लंबाई की तुलना करना"
+        },
+        {
+          "en": "Grouping and classifying objects based on different properties",
+          "hi": "विभिन्न गुणों के आधार पर वस्तुओं को समूहित और वर्गीकृत करना"
+        },
+        {
+          "en": "Understanding number names from 1 to 99 and their patterns",
+          "hi": "1 से 99 तक की संख्या के नाम और उनके पैटर्न को समझना"
+        },
+        {
+          "en": "Organizing data into simple tables like hairstyles or objects",
+          "hi": "बालों की स्टाइल या वस्तुओं जैसे डेटा को सरल तालिकाओं में व्यवस्थित करना"
+        }
+      ],
+      "wordMeanings": [
+        {
+          "en": "Correspondence – Matching one thing to another",
+          "hi": "पत्राचार/मिलान – एक वस्तु का दूसरी वस्तु से मिलान करना"
+        },
+        {
+          "en": "Tally Marks – Simple lines used for counting",
+          "hi": "मिलान चिह्न – गिनती के लिए उपयोग की जाने वाली सरल रेखाएँ"
+        },
+        {
+          "en": "Grouping – Putting similar things together",
+          "hi": "समूह बनाना – समान चीजों को एक साथ रखना"
+        },
+        {
+          "en": "Classification – Sorting objects into categories",
+          "hi": "वर्गीकरण – वस्तुओं को श्रेणियों में छाँटना"
+        },
+        {
+          "en": "Pattern – A repeated decorative design or sequence",
+          "hi": "पैटर्न – एक दोहराया गया डिज़ाइन या क्रम"
+        },
+        {
+          "en": "Data – Information collected for analysis",
+          "hi": "डेटा/आंकड़े – विश्लेषण के लिए एकत्र की गई जानकारी"
+        },
+        {
+          "en": "Longest – Having the greatest length",
+          "hi": "सबसे लंबा – जिसकी लंबाई सबसे अधिक हो"
+        },
+        {
+          "en": "Shortest – Having the least length",
+          "hi": "सबसे छोटा – जिसकी लंबाई सबसे कम हो"
+        }
+      ],
+      "funFacts": [
+        {
+          "en": "Humans counted objects before numbers were even invented",
+          "hi": "संख्याओं के आविष्कार से पहले ही इंसानों ने वस्तुओं को गिनना शुरू कर दिया था"
+        },
+        {
+          "en": "Tally marks are one of the oldest counting systems in the world",
+          "hi": "मिलान चिह्न (Tally marks) दुनिया की सबसे पुरानी गिनती प्रणालियों में से एक हैं"
+        },
+        {
+          "en": "The number 'forty' is the only number with letters in alphabetical order",
+          "hi": "संख्या 'forty' (40) एकमात्र ऐसी संख्या है जिसके अक्षर वर्णमाला के क्रम में हैं"
+        },
+        {
+          "en": "Some places have names with more than 50 letters",
+          "hi": "कुछ स्थानों के नाम 50 से अधिक अक्षरों वाले होते हैं"
+        }
+      ],
+      "history": {
+        "en": "Early humans used marks on cave walls, stones, and sticks to keep track of their animals and goods. Tally marks were used by ancient farmers and traders long before written numbers became common.",
+        "hi": "आदिमानव अपने जानवरों और सामानों का हिसाब रखने के लिए गुफा की दीवारों, पत्थरों और लकड़ियों पर निशान लगाते थे। लिखित संख्याओं के आम होने से बहुत पहले प्राचीन किसानों और व्यापारियों द्वारा मिलान चिह्नों का उपयोग किया जाता था।"
+      },
+      "use": [
+        {
+          "en": "Data Handling – Creating charts and tables",
+          "hi": "डेटा हैंडलिंग – चार्ट और तालिकाएँ बनाना"
+        },
+        {
+          "en": "Computer Science – Sorting and grouping information",
+          "hi": "कंप्यूटर विज्ञान – जानकारी को छाँटना और समूहित करना"
+        },
+        {
+          "en": "Language Skills – Awareness of word lengths and spelling",
+          "hi": "भाषा कौशल – शब्दों की लंबाई और वर्तनी की समझ"
+        },
+        {
+          "en": "Daily Life – Keeping count and organizing household items",
+          "hi": "दैनिक जीवन – गिनती रखना और घर के सामान को व्यवस्थित करना"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Marking a line for each cow leaving the gate",
+          "hi": "गेट से बाहर जाने वाली प्रत्येक गाय के लिए एक रेखा खींचना"
+        },
+        {
+          "en": "Counting letters in a name like 'Praveen'",
+          "hi": "'Praveen' जैसे नाम में अक्षरों की गिनती करना"
+        },
+        {
+          "en": "Grouping objects into 'Uses Electricity' and 'Does Not Use Electricity'",
+          "hi": "वस्तुओं को 'बिजली से चलने वाली' और 'बिना बिजली वाली' समूहों में बाँटना"
+        },
+        {
+          "en": "Finding the longest animal name like 'Hippopotamus'",
+          "hi": "'Hippopotamus' जैसा सबसे लंबा जानवर का नाम खोजना"
+        }
+      ]
+    }
+  ]
+}

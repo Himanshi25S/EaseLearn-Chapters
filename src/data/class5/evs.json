@@ -1,0 +1,376 @@
+{
+  "class": 5,
+  "subject": "EVS",
+
+  "chapters": [
+    {
+      "id": 1,
+
+      "title": {
+        "en": "Food: Where Does It Come From?",
+        "hi": "भोजन: यह कहाँ से आता है?"
+      },
+
+      "videoTopic": {
+        "en": "Food Journey 3D – From Plants & Animals To Our Plate",
+        "hi": "भोजन की यात्रा 3D – पौधों और जानवरों से हमारी थाली तक"
+      },
+
+      "summary": {
+        "en": "Food comes from plants and animals. We eat different parts of plants like roots, stems, leaves, fruits and seeds. Animals provide milk, eggs, meat and honey. Different regions have different food habits. Animals are grouped into herbivores, carnivores and omnivores based on what they eat.",
+        "hi": "भोजन हमें पौधों और जानवरों से मिलता है। हम पौधों के अलग-अलग हिस्से जैसे जड़, तना, पत्तियाँ, फल और बीज खाते हैं। जानवर हमें दूध, अंडे, मांस और शहद देते हैं। अलग-अलग क्षेत्रों में भोजन की आदतें अलग होती हैं। जानवरों को उनके भोजन के आधार पर शाकाहारी, मांसाहारी और सर्वाहारी कहा जाता है।"
+      },
+
+      "points": [
+        {
+          "en": "Food comes from plants and animals",
+          "hi": "भोजन पौधों और जानवरों से मिलता है"
+        },
+        {
+          "en": "Plant parts used as food: roots, stems, leaves, fruits, seeds",
+          "hi": "पौधों के भाग जो भोजन के रूप में उपयोग होते हैं: जड़, तना, पत्तियाँ, फल, बीज"
+        },
+        {
+          "en": "Animals give milk, meat, eggs, honey",
+          "hi": "जानवर दूध, मांस, अंडे और शहद देते हैं"
+        },
+        {
+          "en": "Food habits change with region",
+          "hi": "क्षेत्र के अनुसार भोजन की आदतें बदलती हैं"
+        },
+        {
+          "en": "Animals: Herbivore, Carnivore, Omnivore",
+          "hi": "जानवर: शाकाहारी, मांसाहारी, सर्वाहारी"
+        }
+      ],
+
+      "wordMeanings": [
+        {
+          "en": "Food – Something we eat to live",
+          "hi": "भोजन – जो हम जीवित रहने के लिए खाते हैं"
+        },
+        {
+          "en": "Source – Place something comes from",
+          "hi": "स्रोत – जहाँ से कोई चीज़ आती है"
+        },
+        {
+          "en": "Edible – Safe to eat",
+          "hi": "खाद्य – जिसे सुरक्षित रूप से खाया जा सकता है"
+        },
+        {
+          "en": "Herbivore – Plant eating animal",
+          "hi": "शाकाहारी – पौधे खाने वाला जानवर"
+        },
+        {
+          "en": "Carnivore – Flesh eating animal",
+          "hi": "मांसाहारी – मांस खाने वाला जानवर"
+        },
+        {
+          "en": "Omnivore – Eats both plants and animals",
+          "hi": "सर्वाहारी – पौधे और जानवर दोनों खाने वाला"
+        },
+        {
+          "en": "Harvest – Cutting crops",
+          "hi": "कटाई – फसलों को काटना"
+        },
+        {
+          "en": "Dairy Products – Foods made from milk",
+          "hi": "दुग्ध उत्पाद – दूध से बने खाद्य पदार्थ"
+        },
+        {
+          "en": "Grains – Wheat, rice etc used for food",
+          "hi": "अनाज – गेहूँ, चावल आदि जो भोजन के लिए उपयोग होते हैं"
+        },
+        {
+          "en": "Ingredient – Item used to prepare food",
+          "hi": "सामग्री – भोजन बनाने में उपयोग होने वाली वस्तु"
+        }
+      ],
+
+      "funFacts": [
+        {
+          "en": "Bees visit 50–100 flowers to make one drop of honey",
+          "hi": "एक बूंद शहद बनाने के लिए मधुमक्खियाँ 50–100 फूलों पर जाती हैं"
+        },
+        {
+          "en": "Carrots were originally purple",
+          "hi": "गाजर पहले बैंगनी रंग की होती थीं"
+        },
+        {
+          "en": "India is the largest milk producer in the world",
+          "hi": "भारत दुनिया का सबसे बड़ा दूध उत्पादक देश है"
+        },
+        {
+          "en": "Chillies came to India from America",
+          "hi": "मिर्च अमेरिका से भारत आई थी"
+        },
+        {
+          "en": "Every corn cob has an even number of kernels",
+          "hi": "हर मक्के के भुट्टे में दाने हमेशा सम संख्या में होते हैं"
+        },
+        {
+          "en": "Banana is actually a berry",
+          "hi": "केला वास्तव में एक बेरी फल है"
+        }
+      ],
+
+      "history": {
+        "en": "Early humans hunted animals and gathered fruits. Later they learned farming and food storage during civilizations like the Indus Valley.",
+        "hi": "प्राचीन मनुष्य शिकार करते थे और फल इकट्ठा करते थे। बाद में उन्होंने सिंधु घाटी सभ्यता के समय खेती और भोजन भंडारण सीखा।"
+      },
+
+      "use": [
+        {
+          "en": "Better farming technology",
+          "hi": "बेहतर कृषि तकनीक"
+        },
+        {
+          "en": "Healthy food awareness",
+          "hi": "स्वस्थ भोजन की जागरूकता"
+        },
+        {
+          "en": "Food storage improvement",
+          "hi": "भोजन भंडारण में सुधार"
+        },
+        {
+          "en": "Reduce food wastage",
+          "hi": "भोजन की बर्बादी कम करना"
+        },
+        {
+          "en": "Nutrition awareness",
+          "hi": "पोषण की जानकारी"
+        }
+      ],
+
+      "examples": [
+        {
+          "en": "Plant food: rice, apple",
+          "hi": "पौधों से मिलने वाला भोजन: चावल, सेब"
+        },
+        {
+          "en": "Animal food: milk, egg",
+          "hi": "जानवरों से मिलने वाला भोजन: दूध, अंडा"
+        },
+        {
+          "en": "Roots: carrot",
+          "hi": "जड़: गाजर"
+        },
+        {
+          "en": "Leaves: spinach",
+          "hi": "पत्तियाँ: पालक"
+        },
+        {
+          "en": "Seeds: peas",
+          "hi": "बीज: मटर"
+        }
+      ]
+    },
+    {
+      "id": 2,
+
+      "title": {
+        "en": "Food: Where Does It Come From?",
+        "hi": "भोजन: यह कहाँ से आता है?"
+      },
+
+      "videoTopic": {
+        "en": "Food Journey 3D – From Plants & Animals To Our Plate",
+        "hi": "भोजन की यात्रा 3D – पौधों और जानवरों से हमारी थाली तक"
+      },
+
+      "summary": {
+        "en": "Food comes from plants and animals. We eat different parts of plants like roots, stems, leaves, fruits and seeds. Animals provide milk, eggs, meat and honey. Different regions have different food habits. Animals are grouped into herbivores, carnivores and omnivores based on what they eat.",
+        "hi": "भोजन हमें पौधों और जानवरों से मिलता है। हम पौधों के अलग-अलग हिस्से जैसे जड़, तना, पत्तियाँ, फल और बीज खाते हैं। जानवर हमें दूध, अंडे, मांस और शहद देते हैं। अलग-अलग क्षेत्रों में भोजन की आदतें अलग होती हैं। जानवरों को उनके भोजन के आधार पर शाकाहारी, मांसाहारी और सर्वाहारी कहा जाता है।"
+      },
+
+      "points": [
+        {
+          "en": "Food comes from plants and animals",
+          "hi": "भोजन पौधों और जानवरों से मिलता है"
+        },
+        {
+          "en": "Plant parts used as food: roots, stems, leaves, fruits, seeds",
+          "hi": "पौधों के भाग जो भोजन के रूप में उपयोग होते हैं: जड़, तना, पत्तियाँ, फल, बीज"
+        },
+        {
+          "en": "Animals give milk, meat, eggs, honey",
+          "hi": "जानवर दूध, मांस, अंडे और शहद देते हैं"
+        },
+        {
+          "en": "Food habits change with region",
+          "hi": "क्षेत्र के अनुसार भोजन की आदतें बदलती हैं"
+        },
+        {
+          "en": "Animals: Herbivore, Carnivore, Omnivore",
+          "hi": "जानवर: शाकाहारी, मांसाहारी, सर्वाहारी"
+        }
+      ],
+
+      "wordMeanings": [
+        {
+          "en": "Food – Something we eat to live",
+          "hi": "भोजन – जो हम जीवित रहने के लिए खाते हैं"
+        },
+        {
+          "en": "Source – Place something comes from",
+          "hi": "स्रोत – जहाँ से कोई चीज़ आती है"
+        },
+        {
+          "en": "Edible – Safe to eat",
+          "hi": "खाद्य – जिसे सुरक्षित रूप से खाया जा सकता है"
+        },
+        {
+          "en": "Herbivore – Plant eating animal",
+          "hi": "शाकाहारी – पौधे खाने वाला जानवर"
+        },
+        {
+          "en": "Carnivore – Flesh eating animal",
+          "hi": "मांसाहारी – मांस खाने वाला जानवर"
+        },
+        {
+          "en": "Omnivore – Eats both plants and animals",
+          "hi": "सर्वाहारी – पौधे और जानवर दोनों खाने वाला"
+        },
+        {
+          "en": "Harvest – Cutting crops",
+          "hi": "कटाई – फसलों को काटना"
+        },
+        {
+          "en": "Dairy Products – Foods made from milk",
+          "hi": "दुग्ध उत्पाद – दूध से बने खाद्य पदार्थ"
+        },
+        {
+          "en": "Grains – Wheat, rice etc used for food",
+          "hi": "अनाज – गेहूँ, चावल आदि जो भोजन के लिए उपयोग होते हैं"
+        },
+        {
+          "en": "Ingredient – Item used to prepare food",
+          "hi": "सामग्री – भोजन बनाने में उपयोग होने वाली वस्तु"
+        }
+      ],
+
+      "funFacts": [
+        {
+          "en": "Bees visit 50–100 flowers to make one drop of honey",
+          "hi": "एक बूंद शहद बनाने के लिए मधुमक्खियाँ 50–100 फूलों पर जाती हैं"
+        },
+        {
+          "en": "Carrots were originally purple",
+          "hi": "गाजर पहले बैंगनी रंग की होती थीं"
+        },
+        {
+          "en": "India is the largest milk producer in the world",
+          "hi": "भारत दुनिया का सबसे बड़ा दूध उत्पादक देश है"
+        },
+        {
+          "en": "Chillies came to India from America",
+          "hi": "मिर्च अमेरिका से भारत आई थी"
+        },
+        {
+          "en": "Every corn cob has an even number of kernels",
+          "hi": "हर मक्के के भुट्टे में दाने हमेशा सम संख्या में होते हैं"
+        },
+        {
+          "en": "Banana is actually a berry",
+          "hi": "केला वास्तव में एक बेरी फल है"
+        }
+      ],
+
+      "history": {
+        "en": "Early humans hunted animals and gathered fruits. Later they learned farming and food storage during civilizations like the Indus Valley.",
+        "hi": "प्राचीन मनुष्य शिकार करते थे और फल इकट्ठा करते थे। बाद में उन्होंने सिंधु घाटी सभ्यता के समय खेती और भोजन भंडारण सीखा।"
+      },
+
+      "use": [
+        {
+          "en": "Better farming technology",
+          "hi": "बेहतर कृषि तकनीक"
+        },
+        {
+          "en": "Healthy food awareness",
+          "hi": "स्वस्थ भोजन की जागरूकता"
+        },
+        {
+          "en": "Food storage improvement",
+          "hi": "भोजन भंडारण में सुधार"
+        },
+        {
+          "en": "Reduce food wastage",
+          "hi": "भोजन की बर्बादी कम करना"
+        },
+        {
+          "en": "Nutrition awareness",
+          "hi": "पोषण की जानकारी"
+        }
+      ],
+
+      "examples": [
+        {
+          "en": "Plant food: rice, apple",
+          "hi": "पौधों से मिलने वाला भोजन: चावल, सेब"
+        },
+        {
+          "en": "Animal food: milk, egg",
+          "hi": "जानवरों से मिलने वाला भोजन: दूध, अंडा"
+        },
+        {
+          "en": "Roots: carrot",
+          "hi": "जड़: गाजर"
+        },
+        {
+          "en": "Leaves: spinach",
+          "hi": "पत्तियाँ: पालक"
+        },
+        {
+          "en": "Seeds: peas",
+          "hi": "बीज: मटर"
+        }
+      ]
+    },
+     {
+      "id": 3,
+      "title": "Fibre to Fabric",
+      "videoTopic": "Cotton to Cloth 3D – Journey from Plant to Fabric",
+      "summary": "Clothes are made from fibres like cotton and jute. Fibres → yarn → fabric through spinning, weaving and knitting. Natural fibres come from plants and animals; synthetic fibres are man-made.",
+      "points": [
+        "Clothes are made from fibres",
+        "Natural and synthetic fibres",
+        "Cotton from cotton plant",
+        "Jute from plant stem",
+        "Spinning → yarn",
+        "Weaving/Knitting → fabric"
+      ],
+      "wordMeanings": [
+        "Fibre – Thin thread material",
+        "Fabric – Cloth",
+        "Yarn – Thread from fibres",
+        "Natural Fibre – Plants/animals",
+        "Synthetic Fibre – Man made",
+        "Spinning – Making yarn",
+        "Weaving – Making cloth",
+        "Knitting – Looping yarn"
+      ],
+      "funFacts": [
+        "Cotton most used fibre",
+        "Oldest cotton cloth 5000 years old",
+        "Jute called Golden Fibre",
+        "Clothes earlier from animal skin",
+        "Natural fibres eco-friendly"
+      ],
+      "history": "Indus Valley used cotton cloth. Later spinning wheel and machines were invented.",
+      "use": [
+        "Clothes",
+        "Bags",
+        "Carpets",
+        "Employment",
+        "Fashion"
+      ],
+      "examples": [
+        "Cotton shirt",
+        "Jute bag",
+        "Wool sweater",
+        "Silk saree"
+      ]
+    }
+  ]
+}

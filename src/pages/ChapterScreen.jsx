@@ -1,5 +1,9 @@
 import { useParams, useNavigate } from "react-router-dom";
-import data from "../data/class5.json";
+import { useContext } from "react";
+import { LanguageContext } from "../App";
+
+import { getSubjectData } from "../utils/getSubjectData";
+
 import img3d from "../assets/3d.png";
 import imgSummary from "../assets/summary.png";
 import imgPoints from "../assets/points.png";
@@ -9,94 +13,67 @@ import imgHistory from "../assets/history.png";
 import imgUse from "../assets/use.png";
 import imgExamples from "../assets/examples.png";
 
-
-
 export default function ChapterScreen() {
-
-  const { id } = useParams();
+  const { classId, subject, id } = useParams();
   const navigate = useNavigate();
+  const { lang } = useContext(LanguageContext);
+  const data = getSubjectData(subject);
 
-  const chapter = data.chapters.find(ch => ch.id == id);
+  const chapterId = Number(id);
+
+  const chapter = data.chapters.find(ch => ch.id === chapterId);
 
   if (!chapter)
     return <h2 style={{ textAlign: "center" }}>Chapter Not Found</h2>;
 
   return (
     <div className="main">
+      <div className="back-btn" onClick={() => navigate(-1)}>⬅ Back</div>
 
-      {/* Back Button */}
-      <div className="back-btn" onClick={() => navigate(-1)}>
-        ⬅ Back
-      </div>
-
-      {/* Chapter Buttons */}
       <div className="chapter-selector">
         {data.chapters.map(ch => (
           <button
             key={ch.id}
-            className={`chapter-btn ${ch.id == id ? "active" : ""}`}
-            onClick={() => navigate(`/class5/chapter/${ch.id}`)}
+            className={`chapter-btn ${ch.id === chapterId ? "active" : ""}`}
+            onClick={() =>
+              navigate(`/class/${classId}/${subject}/chapter/${ch.id}`)
+            }
           >
             Chapter {ch.id}
           </button>
         ))}
       </div>
 
-      <h2 className="section-title">{chapter.title}</h2>
+      <h2 className="section-title">
+        {typeof chapter.title === "string"
+          ? chapter.title
+          : chapter.title[lang]}
+      </h2>
 
-      {/* Feature Cards */}
       <div className="feature-grid">
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/videoTopic`)}>
-          <img src={img3d} />
-          <h3>3D Video</h3>
-          <p>Interactive animated learning</p>
-        </div>
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/summary`)}>
-          <img src={imgSummary} />
-          <h3>Summary</h3>
-          <p>Understand chapter easily</p>
-        </div>
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/points`)}>
-          <img src={imgPoints} />
-          <h3>Important Points</h3>
-          <p>Main highlights of topic</p>
-        </div>
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/wordMeanings`)}>
-          <img src={imgWords} />
-          <h3>Word Meanings</h3>
-          <p>Know every meaning</p>
-        </div>
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/funFacts`)}>
-          <img src={imgFun} />
-          <h3>Fun Facts</h3>
-          <p>Exciting science wonders</p>
-        </div>
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/history`)}>
-          <img src={imgHistory} />
-          <h3>History</h3>
-          <p>How it all started</p>
-        </div>
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/use`)}>
-          <img src={imgUse} />
-          <h3>Future & Uses</h3>
-          <p>Real life applications</p>
-        </div>
-
-        <div className="feature-card" onClick={() => navigate(`/class5/chapter/${id}/examples`)}>
-          <img src={imgExamples} />
-          <h3>Examples</h3>
-          <p>Easy real world examples</p>
-        </div>
-
+        <Card img={img3d} title="3D Video" go="videoTopic" />
+        <Card img={imgSummary} title="Summary" go="summary" />
+        <Card img={imgPoints} title="Important Points" go="points" />
+        <Card img={imgWords} title="Word Meanings" go="wordMeanings" />
+        <Card img={imgFun} title="Fun Facts" go="funFacts" />
+        <Card img={imgHistory} title="History" go="history" />
+        <Card img={imgUse} title="Future & Uses" go="use" />
+        <Card img={imgExamples} title="Examples" go="examples" />
       </div>
-
     </div>
   );
+
+  function Card({ img, title, go }) {
+    return (
+      <div
+        className="feature-card"
+        onClick={() =>
+          navigate(`/class/${classId}/${subject}/chapter/${id}/${go}`)
+        }
+      >
+        <img src={img} />
+        <h3>{title}</h3>
+      </div>
+    );
+  }
 }
